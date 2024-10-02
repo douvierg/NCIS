@@ -99,7 +99,7 @@ footer{
     }
 
     .citation {
-        width: 70%; /* Prendre presque toute la largeur de l'écran */
+        width: 90%; /* Prendre presque toute la largeur de l'écran */
         font-size: 40px;
         .secondGuillemet {
             padding-left: 80%; /* Ajuster le padding */
