@@ -1,0 +1,63 @@
+html,body{
+    bottom: 0;
+    margin: 0;
+    background-color: #ededed;
+}
+
+header{
+    display: flex;
+    background-color: rgb(83, 77, 77);
+    width: 100%;
+    #headerTitle{
+        display: flex;
+        width: 30%;
+        margin-left: 20%;
+    }
+    h1{
+        color: white;
+        margin-left: 15px;
+    }
+    img{
+        margin: auto 0;
+        height: 50%;
+        color: red;
+    }
+}
+#content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citation{
+    margin-top: 5%;
+    background-color: white;
+    width: 30%;
+    box-shadow: grey 0 0 15px;
+    .numRule{
+        padding-left: 3%;
+        border: 0px solid red;
+    }
+    .rule{
+        border: 0px solid green;
+        width: 100%;
+        .firstGuillemet{
+            padding-left: 10%;
+            border: 0px solid red;
+            margin: 0;
+        }
+
+        .content{
+            margin: 0;
+            text-align: center;
+            border: 0px solid red;
+        }
+
+        .secondGuillemet{
+            padding-left: 85%;
+            border: 0px solid red;
+            margin-bottom: 4%;
+        }
+    }
+}
