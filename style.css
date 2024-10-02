@@ -76,6 +76,10 @@ footer{
     box-shadow: grey 0 0 15px;
 }
 
+
+
+
+
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column; /* Changer l'orientation pour les petits écrans */
@@ -104,6 +108,7 @@ footer{
         .secondGuillemet {
             padding-left: 80%; /* Ajuster le padding */
         }
+        
     }
     footer{
         font-size: 30px;
