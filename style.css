@@ -2,6 +2,7 @@ html,body{
     bottom: 0;
     margin: 0;
     background-color: #ededed;
+    width: 100%;
 }
 
 header{
@@ -102,6 +103,7 @@ footer p{
 @media screen and (max-width: 500px) {
     header {
         font-size: 15px;
+        width: 100%;
     }
 
     #content{
@@ -114,4 +116,5 @@ footer p{
     .citation .secondGuillemet {
         padding-left: 80%;
     }
+
 }
