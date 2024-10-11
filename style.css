@@ -9,20 +9,23 @@ header{
     background-color: rgb(83, 77, 77);
     width: 100%;
     height: 80px;
-    #headerTitle{
-        display: flex;
-        width: 100%;
-        padding-left: 20%;
-    }
-    h1{
-        color: white;
-        margin-left: 15px;
-    }
-    img{
-        margin: auto 0;
-        height: 30px;
-        color: red;
-    }
+}
+
+header #headerTitle{
+    display: flex;
+    width: 100%;
+    padding-left: 20%;
+}
+
+header h1{
+    color: white;
+    margin-left: 15px;
+}
+
+header img{
+    margin: auto 0;
+    height: 30px;
+    color: red;
 }
 
 #content{
@@ -35,8 +38,8 @@ header{
 .citation{
     margin-top: 5%;
     background-color: white;
-    width: 30%;
     box-shadow: grey 0 0 15px;
+    width: 30%;
 }
 
 .citation .numRule{
@@ -76,36 +79,36 @@ footer{
     box-shadow: grey 0 0 15px;
     background-color: rgb(83, 77, 77);
     height: 100px;
-    p{margin: auto;}
 }
 
-
-
-
+footer p{
+    margin: auto;
+}
 
 @media screen and (max-width: 768px) {
     header {
-        flex-direction: column; /* Changer l'orientation pour les petits écrans */
-        height: auto; /* Permet au header de s'ajuster */
-        padding: 10px; /* Réduire le padding */
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
         font-size: 30px;
     }
 
     .citation {
-        width: 80%; /* Augmenter la largeur sur les petits écrans */
+        width: 80%;
         height: auto;
     }
 }
 
-/* Pour les écrans de moins de 500px */
 @media screen and (max-width: 500px) {
     header {
-        font-size: 30px;
+        font-size: 15px;
     }
 
+    #content{
+        width: 100%;
+    }
     .citation {
-        width: 90%; /* Prendre presque toute la largeur de l'écran */
-        font-size: 40px;
+        width: 80%;
     }
 
     .citation .secondGuillemet {
