@@ -92,6 +92,15 @@ footer p{
         height: auto;
         padding: 10px;
         font-size: 30px;
+        padding: 0;
+        width: 100%;
+    }
+
+    header #headerTitle{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
     }
 
     .citation {
@@ -104,10 +113,20 @@ footer p{
     header {
         font-size: 15px;
         width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    header #headerTitle{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
     }
 
     #content{
         width: 100%;
+        margin-right: 0;
     }
     .citation {
         width: 80%;
@@ -115,6 +134,10 @@ footer p{
 
     .citation .secondGuillemet {
         padding-left: 80%;
+    }
+
+    footer{
+        text-align: center;
     }
 
 }
